@@ -1,5 +1,5 @@
 temperature = 20
-if temperature > 30: # always use colon at the end
+if temperature > 30:  # always use colon at the end
     print("it's warm ")
     print("drink water")
 elif temperature > 20:
@@ -7,3 +7,8 @@ elif temperature > 20:
 else:
     print("it's cold")
 print("done")
+
+# ternary operator
+
+message = 'cold' if temperature > 20 else 'hot'
+print(message)
