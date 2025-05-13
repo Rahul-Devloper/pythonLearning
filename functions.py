@@ -1,7 +1,7 @@
-def greet():
+def greet(name):
     print('Hello World')
     print('Welcome')
-    print('hi')
+    print(f"Hello {name}")
 
-    
-greet()
+
+greet('rahul')
